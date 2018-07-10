@@ -1,10 +1,5 @@
 #!/bin/bash
 
-#  Clcomp.sh
-#  
-#
-#  Created by Douglas Baquião on 02/02/17.
-#
 # mostly from http://arxiv.org/pdf/1403.2642.pdf
 SERVER=http://aflowlib.duke.edu 					# server name in AFLOW
 
