@@ -1,10 +1,10 @@
-# Descobrir a energia do nível de Fermi 
+# Getting the Fermi energy  
 NR==6 {fermi=$4; print fermi > "data"}
 
-# Subtrair a energia do nível de Fermi dos valores iniciais
+# Fermi energy shift
 {correction=$1-fermi}
 
-# Selecionar parte do arquivo que possua densidade de estados igual a zero
+# Selecting only the parts of the file where the DOS is zero
 
 NR==6 {max=$3+6}
 
